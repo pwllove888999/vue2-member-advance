@@ -15,6 +15,6 @@ export default {
   .header
     height: 60px
     line-height: 60px
-    background: pink
+    background: #800000
 
 </style>
