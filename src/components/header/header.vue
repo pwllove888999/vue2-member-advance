@@ -1,6 +1,8 @@
 <template lang="html">
   <div class="header">
-    这里是头部
+    <el-row>
+      <el-col :span="24"><div class="content">这里是头部</div></el-col>
+    </el-row>
   </div>
 </template>
 
@@ -9,5 +11,10 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="sass" scoped>
+  .header
+    height: 60px
+    line-height: 60px
+    background: pink
+
 </style>

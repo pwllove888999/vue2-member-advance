@@ -9,5 +9,12 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="sass" scoped>
+$menuWidth: 200px
+
+.menu
+  position: absolute
+  width: $menuWidth
+  // background: #f60
+  color: #fff
 </style>

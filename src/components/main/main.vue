@@ -9,5 +9,14 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="sass">
+$mainPositionLeft: 200px
+
+.main
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: $mainPositionLeft
+  background: #fff
 </style>

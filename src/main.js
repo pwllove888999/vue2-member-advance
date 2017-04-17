@@ -3,6 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 
+import ElementUI from 'element-ui'
+import './assets/theme/index.css'
+
+Vue.use(ElementUI)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
